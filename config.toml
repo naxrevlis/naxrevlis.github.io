@@ -1,0 +1,32 @@
+baseURL = 'https://naxrevlis.github.io/'
+defaultContentLanguage = "en"
+languageCode = 'en-US'
+title = 'Disce pati si vincere voles'
+
+theme = 'alaGeek'
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        pre = ""
+        post = ""
+        name = "Home"
+        url = "/"
+        title = ""
+        weight = 1
+    [[menu.main]]
+        identifier = "blog"
+        pre = ""
+        post = ""
+        name = "Blog"
+        url = "/blog/"
+        title = ""
+        weight = 2
+    [[menu.main]]
+        identifier = "cv"
+        pre = ""
+        post = ""
+        name = "CV"
+        url = "/cv"
+        title = ""
+        weight = 3
